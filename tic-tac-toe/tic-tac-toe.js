@@ -70,13 +70,13 @@ function endGame(messageText) {
 // Reset the game
 resetButton.addEventListener("click", resetGame);
 
-// function resetGame() {
-//   currentPlayer = "X";
-//   board = ["", "", "", "", "", "", "", "", ""];
-//   isGameOver = false;
-//   cells.forEach((cell) => {
-//     cell.textContent = "";
-//     cell.classList.remove("X", "O");
-//   });
-//   message.textContent = "";
-// }
+function resetGame() {
+  currentPlayer = "X";
+  board = ["", "", "", "", "", "", "", "", ""];
+  isGameOver = false;
+  cells.forEach((cell) => {
+    cell.textContent = "";
+    cell.classList.remove("X", "O");
+  });
+  message.textContent = "";
+}

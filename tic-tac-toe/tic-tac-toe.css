@@ -5,54 +5,6 @@ body {
   background-color: rgb(101, 204, 170);
 }
 
-/* loc20 */
-/* .tic-tac-toe {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.row {
-  display: flex;
-}
-
-.cell {
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 48px;
-  cursor: pointer;
-} */
-
-/* loc21 */
-/* .tic-tac-toe {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-  width: 50%;
-  height: 500px;
-  margin-left: 25%;
-  margin-top: 5rem;
-}
-
-.row {
-  display: inline-grid;
-  width: 100%;
-  height: 100%;
-}
-
-.cell {
-  width: 100%;
-  height: 100%;
-  border: 1px solid black;
-} */
-
-/* 17 loc */
 .tic-tac-toe {
   position: absolute;
   top: 50%;
@@ -80,8 +32,26 @@ body {
 }
 
 #message {
-  margin-top: 10px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  top: 50%;
+  left: 50%;
 }
+
+/* button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  border: none;
+  color: #333;
+  text-align: center;
+  font-size: 18px;
+  line-height: 50px;
+  cursor: pointer;
+} */
 
 #messageTest {
   position: fixed;
