@@ -1,0 +1,35 @@
+body {
+  background-color: antiquewhite;
+}
+
+h1 {
+  text-align: center;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input-section {
+  position: absolute;
+}
+
+.todo-list {
+  margin-top: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: start;
+  padding: 5px;
+  border-bottom: 1px solid rgb(162, 162, 162);
+}
+
+li:last-child {
+  border-bottom: none;
+}
